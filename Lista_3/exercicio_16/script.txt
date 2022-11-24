@@ -1,0 +1,39 @@
+/*Assuma A = 2; B = 3; C = 10 e escreva o resultado (V ou F) para cada proposição abaixo:*/
+a. !(A > B)   /* */   a. !(2 > 3) ==> verdadeiro
+
+b. !(B < C)   /* */   b. !(3 < 10) ==> falso
+
+c. A < B && C > B   /* */   c. 2 < 3 && 10 > 3 ==> verdadeiro
+
+d. A < B && C < B   /* */   d. 2 < 3 && 10 < 3 ==> falso
+
+e. A > B && C > B   /* */   e. 2 > 3 && 10 > 3 ==> falso
+
+f. A > B && C < B   /* */   f. 2 > 3 && 10 < 3 ==> falso
+
+g. A < B && C > B && A > 0   /* */   g. 2 < 3 && 10 > 3 && 2 > 0 ==> verdadeiro
+
+h. A < B && C > B && A < 0   /* */   h. 2 < 3 && 10 > 3 && 2 < 0 ==> falso
+
+i. A < B || C > B   /* */   i. 2 < 3 || 10 > 3 ==> verdadeiro
+
+j. A < B || C < B   /* */   j. 2 < 3 || 10 < 3 ==> verdadeiro
+
+k. A > B || C > B   /* */   k. 2 > 3 || 10 > 3 ==> verdadeiro
+
+l. A > B || C < B   /* */   l. 2 > 3 || 10 < 3 ==> falso
+
+m. A < B && C > B || A > 0   /* */   m. 2 < 3 && 10 > 3 || 2 > 0 ==> verdadeiro
+
+n. A < B || C > B || A < 0   /* */   n. 2 < 3 || 10 > 3 || 2 < 0 ==> verdadeiro
+
+o. !(A < B && C > B)   /* */   o. !(2 < 3 && 10 > 3) ==> falso
+
+p. !A < B && C > B   /* */   p. !2 < 3 && 10 > 3 ==> verdadeiro
+
+q. !(A > B) && C > B   /* */   q. !(2 > 3) && 10 > 3 ==> falso
+
+r. !(A > B) || B >   /* */   r. !(2 > 3) || 3 > ==> verdadeiro
+
+
+    /* */ 
