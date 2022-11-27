@@ -2,12 +2,8 @@
 calculada. Fórmula : Area=Pi*Raio2. Considerar a constante Pi = 3.14.*/
 
 const circuferencia = () => {
+    let raio = 15
+    let pi = 3.14
 
-    const raio = Number(prompt("Digite o raio:"))
-    const pi = 3.14
-
-    const area = pi * (raio**2)
-
-    window.alert(`A area da circunferência é ${area}`)
+    console.log(`A area da circunferência é ${pi * (raio**2)}`)
 }
- 
